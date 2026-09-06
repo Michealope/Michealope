@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<androidFeatures>
+    <feature>
+        <featureName>INTERNET</featureName>
+        <description>Allows the application to make network requests and also allows on device debugging</description>
+    </feature>
+    <feature>
+        <featureName>WRITE_EXTERNAL_STORAGE</featureName>
+        <description>Allows the application to write to the external memory card on the device</description>
+    </feature>
+    <feature>
+        <featureName>READ_PHONE_STATE</featureName>
+        <description>Allows the AIR runtime to mute audio during phone calls</description>
+    </feature>
+    <feature>
+        <featureName>ACCESS_FINE_LOCATION</featureName>
+        <description>Allows the application to access GPS data through the Geolocation class</description>
+    </feature>
+	    <feature>
+        <featureName>ACCESS_COARSE_LOCATION</featureName>
+        <description>Allows the application to access WIFI and cellular network location data through the Geolocation class</description>
+    </feature>
+    <feature>
+        <featureName>CAMERA</featureName>
+        <description>Allows the application to access device camera</description>
+    </feature>
+    <feature>
+        <featureName>RECORD_AUDIO</featureName>
+        <description>Allows the application to access device microphone</description>
+    </feature>
+    <feature>
+    <featureName>DISABLE_KEYGUARD</featureName>
+        <description>Allows the application to prevent the device from going to sleep using the SystemIdleMode class settings</description>
+    </feature>
+    <feature>
+        <featureName>WAKE_LOCK</featureName>
+        <description>Allows the application to prevent the device from going to sleep using the SystemIdleMode class settings</description>
+    </feature>
+    <feature>
+        <featureName>ACCESS_NETWORK_STATE</featureName>
+        <description>Allows the application to access network information through the NetworkInfo class</description>
+    </feature>
+    <feature>
+        <featureName>ACCESS_WIFI_STATE</featureName>
+        <description>Allows the application to access network information through the NetworkInfo class</description>
+    </feature>
+</androidFeatures>
